@@ -1,0 +1,20 @@
+//
+//  LSJHBannerView.pch
+//  LSJHBannerView
+//
+//  Created by 李世航 on 2020/4/26.
+//
+
+#ifndef LSJHBannerView_pch
+#define LSJHBannerView_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <LSJHCategory/LLCategory.h>
+#import <SDWebImage/SDWebImage.h>
+
+#define kCycleScrollViewInitialPageControlDotSize CGSizeMake(10, 10)
+#define BANNERAUTOSCROLL @"bannerAutoScroll" // 是否自动滚动
+
+#endif /* LSJHBannerView_pch */
